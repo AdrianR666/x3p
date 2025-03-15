@@ -8,8 +8,7 @@
 
 | Iniciales  | Description |
 | ----------:| ----------- |
-| **ADvp** | Angel David Velasco Perez [GitHub profile](https://github.com/AngelVelascoJr) |
-| **EPM**  | Erik Peña Medina [GitHub profile](https://github.com/ErikFiUNAM) |
+| **ADVP** | Angel David Velasco Perez [GitHub profile](https://github.com/AngelVelascoJr) |
 
 ## Contenido
 
