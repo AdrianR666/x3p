@@ -4,7 +4,7 @@
 | Código | Description |
 | ------:| ----------- |
 | ***Asignatura*** | Código del Trabajo o Número de Tarea | 
-| **TSR-2022-I** | Tarea *01 ... n* |
+| **TSR-2025-II** | Tarea *01 ... n* |
  
 ## Autor
 
