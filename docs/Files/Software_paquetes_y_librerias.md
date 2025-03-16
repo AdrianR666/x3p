@@ -46,30 +46,30 @@ Para la version que se tiene en el laboratorio (Jetson NANO 4GB), se debe insert
 
 El robot ROSMASTER X3 PLUS puede ser controlado mediante la aplicacion para android e iOS [MakerControl], para esto, el usuario debe seleccionar el dispositivo [ROSMASTER X3 PLUS] en la pestaña [ROS robot].
 
-![MakerControlImage](./Images/Softw_App.png)
+![MakerControlImage](./Images/Software/Softw_App.png)
 
 Tras esto, el sistema requerira ingresar la direccion IP del robot y presionar "Connect" para conectarse con el robot.
 
-![MakerConect](./Images/Softw_ip.png)
+![MakerConect](./Images/Software/Softw_ip.png)
 
 Una vez dentro, el sistema le permitirá al usuario observar y manipular al robot de diversas maneras: 
 
-![MC_UI](./Images/Softw_FullApp.png)
+![MC_UI](./Images/Software/Softw_FullApp.png)
 
 - controlar de manera remota el robot con controles de movimiento
-![MC_UI](./Images/Softw_Remote_Ctrl.png)
+![MC_UI](./Images/Software/Softw_Remote_Ctrl.png)
 
 - control angular para cada uno de los elementos del brazo
-![MC_UI](./Images/Softw_brazo_ui.png)
+![MC_UI](./Images/Software/Softw_brazo_ui.png)
 
 - control de velocidad para cada rueda
-![MC_UI](./Images/Softw_Ruedas_ui.png)
+![MC_UI](./Images/Software/Softw_Ruedas_ui.png)
 
 - control de las luces del robot
-![MC_UI](./Images/Softw_luces_ui.png)
+![MC_UI](./Images/Software/Softw_luces_ui.png)
 
 - calibracion de los elementos del robot.
-![MC_UI](./Images/Softw_calibration_ui.png)
+![MC_UI](./Images/Software/Softw_calibration_ui.png)
 
 Tambien es posible usar este robot mediante el uso de un control inalambrico haciendo uso del docker proporcionado por YAHBOOM y corriendo los archivos siguientes en 2 terminales distintas.
 
