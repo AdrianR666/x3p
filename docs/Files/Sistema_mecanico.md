@@ -3,13 +3,13 @@
 ## Estructura del Chasis
 El ROSMASTER X3 PLUS cuenta con un chasis fabricado en aleación de aluminio de alta resistencia, lo que le confiere una estructura robusta y ligera. Este diseño no solo garantiza durabilidad, sino que también facilita la disipación de calor generada por los componentes electrónicos internos. La elección de la aleación de aluminio proporciona una base sólida para la integración de diversos módulos y sensores, asegurando estabilidad durante el funcionamiento del robot. Con una dimensión aproximada de 245.6x300x515 mm
 
-[X3P chasis](/Images/x3p_params.png)
+![X3P chasis](./Images/x3p_params.png)
 
 ## Sistema de Movilidad y Suspension
 
 El robot está equipado con ruedas Mecanum, que le permiten un movimiento omnidireccional. Estas ruedas especiales están diseñadas con rodillos en ángulo, lo que permite al ROSMASTER X3 PLUS desplazarse en cualquier dirección sin necesidad de girar previamente. Esta capacidad de movimiento holonómico es esencial para maniobras en espacios reducidos y para aplicaciones que requieren alta precisión en la navegación. Este sistema de movilidad es accionado por motores de alta potencia modelo 520, que proporcionan el par y la velocidad necesarios para maniobras precisas.El diseño del chasis incorpora un sistema de suspensión que mejora la estabilidad y el rendimiento del robot en terrenos irregulares. Esta característica permite al ROSMASTER X3 PLUS mantener un contacto constante con la superficie, reduciendo las vibraciones y mejorando la precisión en la recolección de datos de los sensores. 
 
-[X3P suspe](/Images/x3p_mechanic2.png)
+![X3P suspe](./Images/x3p_mechanic2.png)
 
 ## Brazo Robótico de 6 Grados de Libertad (6DOF)
 Una de las características destacadas del ROSMASTER X3 PLUS es su brazo robótico con 6 grados de libertad. Este brazo permite realizar movimientos complejos y precisos, emulando la destreza de un brazo humano. Cada articulación del brazo está controlada por servomotores de alta precisión, lo que facilita tareas como la manipulación de objetos, ensamblaje y otras aplicaciones industriales o educativas. El diseño modular del brazo robótico permite una fácil integración y mantenimiento, y su capacidad de carga útil es adecuada para una amplia gama de aplicaciones
