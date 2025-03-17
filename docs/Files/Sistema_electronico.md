@@ -20,6 +20,8 @@ El sistema electrónico del **ROSMASTER X3 Plus** está diseñado para ofrecer u
 - Conexión UART y I2C para comunicación con módulos externos  
 - Puerto Ethernet para conectividad de red  
 
+![Jetson Nano](./Images/Elect/jetson.png)
+
 
 ## **2. Módulo de expansión de robot para ROS**
 Este módulo es una interfaz directa entre la Jetson Nano y los actuadores y sensores del robot.  
@@ -117,3 +119,5 @@ El robot cuenta con múltiples puertos de expansión para la integración de nue
 - **Puertos GPIO** para añadir sensores adicionales o módulos personalizados  
 - **Puerto Ethernet** para conectividad y teleoperación  
 
+
+![Electronica](./Images/Elect/electronica.png)
