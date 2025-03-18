@@ -14,7 +14,7 @@
 | **ARL**  | Adrián Rodríguez Loza [GitHub profile](https://github.com/AdrianR666) |
 | **EJZH**   | Evandher Joel Zarco Hernámdez [GitHub profile](https://github.com/EvandherZarco25) |
 | **SSS** | Sanitago Sanchez Sanchez [GitHub profile](https://github.com/LordSnakeZ) |
-| **LDRC** | Luis Daniel Rosas Cazares [GitHub profile](https://github.com/LordSnakeZ) |
+| **LDRC** | Luis Daniel Rosas Cazares [GitHub profile](https://github.com/luisrcazares) |
 | **MGR-MX** | Mechatronics Research Group, México [GitHub profile](https://github.com/mrg-mx) |
 
 ## Referencias
