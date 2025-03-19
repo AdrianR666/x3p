@@ -46,22 +46,14 @@ La placa de expansión del ROSMASTER X3 PLUS incluye una variedad de puertos e i
 ### Diagrama de bloques
 A continuación se muestra un diagrama de bloques que ilustra cómo se conectan los diferentes componentes a través de los puertos e interfaces de la placa de expansión:
 
-+-------------------+       +-------------------+       +-------------------+
-| Microcontrolador  |<----->| Puertos e        |<----->| Dispositivos      |
-| de la placa      |       | interfaces       |       | externos         |
-|  STM32 MCU       |       | (USB, I2C, CAN,  |       | (motores,        |
-|                 |       | PWM, SBUS, etc.) |       | servos, sensores)|
-+-------------------+       +-------------------+       +-------------------+
-        ^                          ^                          ^
-        |                          |                          |
-        v                          v                          v
-+-------------------+       +-------------------+       +-------------------+
-|   Jetson Nano    |       |  Batería y        |       |  Fuente de poder  |
-| (comunicación y  |       |  alimentación     |       |                   |
-|   control)       |       |                   |       |                   |
-+-------------------+       +-------------------+       +-------------------+
-
-
+```mermaid
+graph TD;
+    A[Microcontrolador STM32] -->|USB, I2C, CAN, PWM, SBUS, etc.| B[Puertos e Interfaces];
+    B --> C[Dispositivos Externos (motores, servos, sensores)];
+    A --> D[Jetson Nano (comunicación y control)];
+    B --> E[Batería y Alimentación];
+    E --> F[Fuente de Poder];
+```
 ### Tabla de puertos e interfaces
 | **Puerto/Interfaz** | **Tipo**       | **Descripción**                                                                 | **Componente Conectado**       |
 |----------------------|----------------|---------------------------------------------------------------------------------|--------------------------------|
