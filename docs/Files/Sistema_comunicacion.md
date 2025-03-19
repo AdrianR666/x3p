@@ -49,8 +49,8 @@ A continuación se muestra un diagrama de bloques que ilustra cómo se conectan 
 ```mermaid
 graph TD;
     A[Microcontrolador STM32] -->|USB, I2C, CAN, PWM, SBUS, etc.| B[Puertos e Interfaces];
-    B --> C[Dispositivos Externos (motores, servos, sensores)];
-    A --> D[Jetson Nano (comunicación y control)];
+    B --> C[Dispositivos Externos - motores, servos, sensores];
+    A --> D[Jetson Nano - comunicación y control];
     B --> E[Batería y Alimentación];
     E --> F[Fuente de Poder];
 ```
