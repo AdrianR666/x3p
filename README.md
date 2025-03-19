@@ -22,4 +22,3 @@
 <a id="1">[1]</a> Yahboom Technology. (n.d.). ROSMASTER X3 PLUS [Repositorio de GitHub]. https://github.com/YahboomTechnology/ROSMASTERX3-PLUS 
 
 <a id="2">[2]</a> Yahboom Technology. (n.d.). ROSMASTER X3 PLUS [Página de estudio]. http://www.yahboom.net/study/ROSMASTER-X3-PLUS
-
