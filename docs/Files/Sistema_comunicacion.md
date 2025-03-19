@@ -1,6 +1,6 @@
-## Descripción, diagrama de bloques y tablas referentes a puertos e interfaces de comunicación de elementos
+# Descripción, diagrama de bloques y tablas referentes a puertos e interfaces de comunicación de elementos
 
-### Descripción de los puertos e interfaces
+## Descripción de los puertos e interfaces
 La placa de expansión del ROSMASTER X3 PLUS incluye una variedad de puertos e interfaces que permiten la comunicación y conexión de diferentes componentes. A continuación se describen los principales:
 
 1. **Interfaz de alimentación DC 12V (T-shaped)**:  
@@ -76,9 +76,7 @@ A continuación se muestra un diagrama de bloques que ilustra cómo se conectan 
 | SWD                 | Depuración     | Depuración y programación del microcontrolador                                  | ST-Link, J-Link                |
 
 
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Comunicación serial
+## Comunicación serial
 La comunicación serial es un método clave para la interacción entre la Jetson Nano y la placa de expansión del ROSMASTER X3 PLUS. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito de la comunicación serial
