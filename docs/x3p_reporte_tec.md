@@ -4,15 +4,9 @@
 | ------:| ----------- | 
 | **TSR-2025-II** | Trabajo En Equipo Fase *01* |
 
-## Autor
-
-| Iniciales  | Description |
-| ----------:| ----------- |
-| **ADVP** | Angel David Velasco Perez [GitHub profile](https://github.com/AngelVelascoJr) |
-
 ## Contenido
 
-- [Autor](#Autor)
+- [Autores](./../README.md)
 - [Introduccion](./Files/Introduccion.md)
 - [Descripción del sistema mecánico](./Files/Sistema_mecanico.md)
 - [Descripción del sistema electrónico](./Files/Sistema_electronico.md)
