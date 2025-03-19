@@ -147,6 +147,7 @@ PUTCHAR_PROTOTYPE {
     HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
     return ch;
 }
+```
 
 #### Conexión hardware
 - Cable micro-USB: Conecta la placa de expansión a la Jetson Nano.
@@ -161,9 +162,7 @@ Al programar el microcontrolador y conectar la placa de expansión a la Jetson N
 
 - Si se envía un carácter (por ejemplo, 'a') desde la Jetson Nano, el microcontrolador lo retransmite.
 
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Comunicación CAN
+## Comunicación CAN
 La comunicación CAN (Controller Area Network) es un protocolo robusto utilizado para la interconexión de dispositivos en entornos industriales y robóticos. A continuación se describe su configuración y funcionamiento en el ROSMASTER X3 PLUS:
 
 #### Propósito de la comunicación CAN
@@ -257,10 +256,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
     }
 }
 ```
-
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Control de servos PWM mediante interrupciones de temporizador
+## Control de servos PWM mediante interrupciones de temporizador
 El control de servos PWM en el ROSMASTER X3 PLUS se realiza mediante interrupciones generadas por el temporizador TIM7 del microcontrolador STM32. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito del control de servos PWM
@@ -346,9 +342,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     }
 }
 ```
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Control de servos seriales
+## Control de servos seriales
 El control de servos seriales en el ROSMASTER X3 PLUS se realiza a través del puerto USART3 del microcontrolador STM32. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito del control de servos seriales
@@ -444,9 +438,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
 }
 ```
 
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Captura de datos del encoder
+## Captura de datos del encoder
 La captura de datos del encoder en el ROSMASTER X3 PLUS se realiza mediante los temporizadores (TIM2, TIM3, TIM4 y TIM5) del microcontrolador STM32. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito de la captura de datos del encoder
@@ -533,9 +525,7 @@ void Encoder_Get_ALL(int* Encoder_all) {
 }
 ```
 
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Obtención de datos del sensor de actitud ICM20948
+## Obtención de datos del sensor de actitud ICM20948
 El sensor de actitud de nueve ejes **ICM20948** es un componente clave en el ROSMASTER X3 PLUS, ya que proporciona datos de aceleración, giroscopio y magnetómetro. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito del sensor ICM20948
@@ -642,10 +632,7 @@ bool AK09916_mag_read_uT(axises_t* data) {
     return true;
 }
 ```
-
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Control de motores
+## Control de motores
 El control de los motores en el ROSMASTER X3 PLUS se realiza mediante los temporizadores **TIM1** y **TIM8** del microcontrolador STM32, que generan señales PWM para controlar los drivers de motor **AM2857**. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito del control de motores
@@ -763,9 +750,7 @@ void Motor_Set_Pwm(uint8_t id, int16_t speed) {
     }
 }
 ```
-## Descripción de software, estructura de paquetes, librerías y programas de operación
-
-### Control de la barra de luces RGB
+## Control de la barra de luces RGB
 La barra de luces RGB en el ROSMASTER X3 PLUS se controla mediante el protocolo de comunicación del módulo **WS2812B**, utilizando el puerto **SPI3** del microcontrolador STM32. A continuación se describe su configuración y funcionamiento:
 
 #### Propósito del control de la barra de luces RGB
