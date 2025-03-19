@@ -147,6 +147,7 @@ PUTCHAR_PROTOTYPE {
     HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
     return ch;
 }
+
 #### Conexión hardware
 - Cable micro-USB: Conecta la placa de expansión a la Jetson Nano.
 - Puerto USART1: Utilizado para la comunicación serial entre el microcontrolador y la Jetson Nano.
@@ -255,6 +256,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
                RxData[4], RxData[5], RxData[6], RxData[7]);
     }
 }
+```
 
 ## Descripción de software, estructura de paquetes, librerías y programas de operación
 
@@ -343,7 +345,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
         PwmServo_Handle();  // Llamar a la función de manejo de PWM
     }
 }
-
+```
 ## Descripción de software, estructura de paquetes, librerías y programas de operación
 
 ### Control de servos seriales
@@ -440,6 +442,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
         HAL_UART_Receive_IT(&huart3, (uint8_t *)&RxTemp_3, 1);
     }
 }
+```
 
 ## Descripción de software, estructura de paquetes, librerías y programas de operación
 
@@ -528,7 +531,7 @@ void Encoder_Get_ALL(int* Encoder_all) {
     Encoder_all[2] = q_Encoder_M3_Now;  // Motor M3
     Encoder_all[3] = q_Encoder_M4_Now;  // Motor M4
 }
-
+```
 
 ## Descripción de software, estructura de paquetes, librerías y programas de operación
 
@@ -638,7 +641,7 @@ bool AK09916_mag_read_uT(axises_t* data) {
     data->z = (float)(g_raw_mag.z * 0.15);
     return true;
 }
-
+```
 
 ## Descripción de software, estructura de paquetes, librerías y programas de operación
 
@@ -759,7 +762,7 @@ void Motor_Set_Pwm(uint8_t id, int16_t speed) {
             break;
     }
 }
-
+```
 ## Descripción de software, estructura de paquetes, librerías y programas de operación
 
 ### Control de la barra de luces RGB
@@ -844,3 +847,4 @@ void RGB_Update(void) {
 static void WS2812_Send_Data(uint8_t *buf, uint16_t buf_size) {
     HAL_SPI_Transmit_DMA(&hspi3, buf, buf_size);  // Transmitir datos mediante DMA
 }
+```
